@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrimeAI</title>
-    <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PrimeAI</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-<div class="app">
+<div class="container">
 
-    <header>
-        <h1>🤖 PrimeAI</h1>
-        <p>Think. Create. Evolve.</p>
-    </header>
+<header>
 
-    <div id="chatBox" class="chat-box">
+<div class="logo">
 
-        <div class="bot-message">
-            👋 Hello! I'm PrimeAI.
-            <br><br>
-            Ask me anything.
-        </div>
+<img src="logo.png" alt="PrimeAI Logo">
 
-    </div>
+<div>
 
-    <div class="input-box">
+<h1>PrimeAI</h1>
 
-        <input
-            type="text"
-            id="userInput"
-            placeholder="Type a message...">
+<p>Think. Create. Evolve.</p>
 
-        <button id="sendBtn">
-            Send
-        </button>
+</div>
 
-    </div>
+</div>
+
+<button id="clearChat">
+New Chat
+</button>
+
+</header>
+
+<div id="chatBox" class="chatBox">
+
+<div class="bot">
+
+Hello 👋
+
+I'm <strong>PrimeAI</strong>.
+
+Ask me anything.
+
+</div>
+
+</div>
+
+<div class="inputArea">
+
+<input
+type="text"
+id="userInput"
+placeholder="Message PrimeAI...">
+
+<button id="sendBtn">
+Send
+</button>
+
+</div>
 
 </div>
 
